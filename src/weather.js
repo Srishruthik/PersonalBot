@@ -16,7 +16,7 @@ const weatherFunc = (bot,args) => {
 
         const current = data.current
         
-
+       
         let emededWeatherUI = new MessageEmbed()
         .setTitle(`${location.name}, ${location.country}`)
         .setThumbnail("https:"+current.condition.icon)
