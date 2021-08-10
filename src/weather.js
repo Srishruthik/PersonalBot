@@ -5,7 +5,7 @@ require("dotenv").config()
 
 const weatherFunc = (bot,args) => {    
     let location = args[0] + " " + ( args[1] === undefined ? "" : args[1])
-    const url = `http://api.weatherapi.com/v1/current.json?key=${process.env.WEATHER_TOKEN}&q=${location}&aqi=no`
+    const url = `http://api.weatherapi.com/v1/current.json?key=e5e4d7c943ba4aceb5f32622210705&q=${location}&aqi=no`
 
 
     fetch(url)
