@@ -58,5 +58,7 @@ const weatherFunc = (bot,args) => {
 
 
 module.exports = {
+
     weatherFunc:weatherFunc
+    
 }
