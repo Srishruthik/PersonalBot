@@ -103,8 +103,8 @@ client.on("message",(message) => {
 
 
 })
-
-client.login("ODM2MDcyNjQxMDE3Njc1Nzk2.YIYrUw.ZHOR3Sle5dvUm8sVHVnkc_4WdQk")
+let token = "ODM2MDcyNjQxMDE3Njc1Nzk2.YIYrUw.y0gHMLhPTjG6VwTxw2K4_DcxA9A"
+client.login(token)
 
 
 
