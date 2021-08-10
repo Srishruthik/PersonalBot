@@ -1,0 +1,1 @@
+Worder: node ./src/index.js
